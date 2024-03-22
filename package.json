@@ -1,5 +1,5 @@
 {
-  "name": "finsf-ui2",
+  "name": "@PolyakovD99/finsf-ui2",
   "version": "1.0.0",
   "description": "",
   "type": "module",
@@ -9,6 +9,9 @@
   "files": [
     "/dist"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@PolyakovD99"
+  },
   "scripts": {
     "build": "tsc && vite build",
     "format": "prettier --write --parser typescript '**/*.{ts,tsx}'",
